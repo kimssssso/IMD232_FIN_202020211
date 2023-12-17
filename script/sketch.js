@@ -35,8 +35,8 @@ function draw() {
   fill('white');
   noStroke();
   let size = width / 16;
-  let engSmallSize = width / 60;
-  let koSmallSize = width / 70;
+  let engSmallSize = width / 70;
+  let koSmallSize = width / 75;
 
   if (
     0 < mouseX &&
@@ -59,7 +59,7 @@ function draw() {
     text('Blue Field Entoptic Phenomenon', 0, 10, size * 35, size + 10);
     textSize(engSmallSize);
     text(
-      "The blue field entoptic phenomenon is an entoptic phenomenon characterized by the appearance of tiny bright dots (nicknamed blue-sky sprites) moving quickly along undulating pathways in the visual field, especially when looking into bright blue light such as the sky. The dots are short-lived, visible for about one second or less, and traveling short distances along seemingly random, undulating paths. Some of them seem to follow the same path as other dots before them. The dots may appear elongated along the path, like tiny worms. The dots' rate of travel appears to vary in synchrony with the heartbeat: they briefly accelerate at each beat. The dots appear in the central field of view, within 15 degrees from the fixation point.",
+      'The blue field entoptic phenomenon is an enoptic phenomenon in which small, bright dots (blue sky Sprites) that move quickly along the wavy path of vision, especially when looking at bright blue light, such as the sky. The dots have a short lifespan, are visible for less than about one second, and travel short distances along randomly appearing undulating paths. Some of them seem to follow the same path as other dots did before. The dots can appear long along the path like a small bug, and the speed of movement of the dots seems to change at the same time as the heartbeat. When you see this phenomenon and press the side of the eyeball lightly inward, the dots no longer move, only if the heart beats.',
       0,
       size + 10,
       width,
